@@ -1,0 +1,14 @@
+.logo {
+    display: flex;
+
+    &__link {
+        display: flex;
+        text-decoration: none;
+    }
+
+    &__text {
+        font-family: var(--Poppins);
+        font-size: calc(var(--size-m) + 4px);
+        color: var(--white);
+    }
+}
