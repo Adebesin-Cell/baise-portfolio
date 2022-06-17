@@ -17,6 +17,7 @@ const About = function () {
             structure works. I enjoy crafting amazing digital experiences for my
             clients.
           </p>
+          <p className={styles.about__text}>Here are services I offer:</p>
         </div>
         <div className={styles.about__right}>
           <div className={styles["about__image--box"]}>

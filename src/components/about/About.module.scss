@@ -93,4 +93,18 @@
             }
         }
     }
+
+    &__text {
+        margin-top: var(--span-m);
+        font-family: var(--Poppins);
+        font-size: var(--size-m);
+        font-weight: var(--weight-sm);
+        line-height: 26px;
+        color: var(--slate);
+    }
+
+    &__list {
+        list-style-type: none;
+        display: flex;
+    }
 }
