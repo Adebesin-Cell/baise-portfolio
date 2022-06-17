@@ -5,7 +5,7 @@ const Intro = function () {
     <section className={styles.intro}>
       <h3 className={styles.intro__sub}>Hi, my name is</h3>
       <h1 className={styles.intro__heading}>Ismail Abdul-Baise.</h1>
-      <p className={styles.intro__paragraph}>I'm an affliate marketer.</p>
+      <p className={styles.intro__paragraph}>I'm an affiliate marketer.</p>
       <p className={styles.intro__text}>
         I help business owners move the numbers that matter; sales, leads,
         inbound traffic by building automated systems that pepertually bring the
