@@ -1,5 +1,7 @@
 .logo {
     display: flex;
+    height: 60px;
+    align-items: center;
 
     &__link {
         display: flex;
@@ -8,7 +10,9 @@
 
     &__text {
         font-family: var(--Poppins);
-        font-size: calc(var(--size-m) + 4px);
+        font-size: calc(var(--size-l));
+        font-weight: var(--weight-xlg);
+        line-height: 28px;
         color: var(--white);
     }
 }

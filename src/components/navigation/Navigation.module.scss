@@ -1,0 +1,36 @@
+.nav {
+    &__list {
+        list-style-type: none;
+        display: flex;
+        gap: var(--span-m);
+    }
+
+    &__item {
+        display: block;
+    }
+
+    &__link {
+        text-decoration: none;
+        display: inline-block;
+        text-transform: capitalize;
+        font-family: var(--Poppins);
+        font-size: var(--size-s);
+        font-weight: var(--weight-sm);
+        line-height: 28px;
+        color: var(--lightest-slate);
+        transition: all 300ms;
+
+        &:hover &--text {
+            color: var(--green);
+        }
+
+        &--green {
+            color: var(--green);
+            margin-right: 5px;
+        }
+
+        &--text {
+            transition: all 300ms;
+        }
+    }
+}
