@@ -1,5 +1,6 @@
 .about {
     margin: calc(2 * var(--span-xl) + var(--span-l)) 0;
+    margin-bottom: calc(var(--span-2xl) + var(--span-xl));
 
     &__wrapper {
         display: grid;
