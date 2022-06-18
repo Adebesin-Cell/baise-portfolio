@@ -54,6 +54,7 @@
 
     &__box {
         margin: var(--span-m) auto;
+        margin-bottom: 0;
         display: flex;
         justify-content: center;
     }
@@ -75,6 +76,26 @@
         &:hover {
             color: var(--green);
             background: var(--green-tint);
+        }
+    }
+
+    &__socials {
+        margin-top: var(--span-l);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: var(--span-s);
+    }
+
+    &__icon {
+
+        a {
+            color: var(--green);
+            text-decoration: none;
+
+            i {
+                font-size: var(--size-l);
+            }
         }
     }
 }
