@@ -11,7 +11,12 @@ const Intro = function () {
         inbound traffic by building automated systems that pepertually bring the
         goods with little effort.
       </p>
-      <a href='/' className={styles.intro__link}>
+      <a
+        href='https://wa.link/83l2ja'
+        target='_blank'
+        rel='noopener noreferrer'
+        className={styles.intro__link}
+      >
         Get in touch
       </a>
     </section>

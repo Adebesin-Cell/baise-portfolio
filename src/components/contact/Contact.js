@@ -20,7 +20,13 @@ const Contact = function () {
         reply as soon as possible.
       </p>
       <div className={styles.contact__box}>
-        <a href='/' className={styles.contact__link}>
+        <a
+          href='mailto:ismailaabdulbaise@gmail.com'
+          name='say hello'
+          className={styles.contact__link}
+          target='_blank'
+          rel='noopener noreferrer'
+        >
           Say Hello
         </a>
       </div>
@@ -28,5 +34,7 @@ const Contact = function () {
     </section>
   );
 };
+
+//twitter: https://twitter.com/Kingfundz1?t=znm7HJ1Kk0mbHJ2UMlL-9w&s=09
 
 export default Contact;
