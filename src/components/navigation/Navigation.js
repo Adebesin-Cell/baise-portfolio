@@ -10,12 +10,8 @@ const NavLinks = [
     url: "#contact",
   },
   {
-    text: "courses",
-    url: "#courses",
-  },
-  {
-    text: "work",
-    url: "#work",
+    text: "socials",
+    url: "#socials",
   },
 ];
 

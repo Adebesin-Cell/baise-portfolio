@@ -1,5 +1,21 @@
 import styles from "./About.module.scss";
 import avatar from "../../assets/images/avatar.jpg";
+import { ReactComponent as ChevronRight } from "../../assets/svgs/icon-chevron-right.svg";
+
+const ServicesOffered = [
+  {
+    type: "branding",
+  },
+  {
+    type: "Digital Advertising",
+  },
+  {
+    type: "Coaching & Mentorship",
+  },
+  {
+    type: "Marketing Strategy",
+  },
+];
 
 const About = function () {
   return (
@@ -8,7 +24,7 @@ const About = function () {
         <div className={styles.about__left}>
           <h3 className={styles.about__title}>
             <span className={styles["about__title--green"]}>01.</span>
-            <span className={styles["about__title--text"]}>About</span>
+            <span className={styles["about__title--text"]}>About me</span>
             <hr className={styles.about__line} />
           </h3>
           <p className={styles.about__paragraph}>
@@ -18,6 +34,16 @@ const About = function () {
             clients.
           </p>
           <p className={styles.about__text}>Here are services I offer:</p>
+          <ul className={styles.about__list}>
+            {ServicesOffered.map((service, i) => (
+              <li key={i} className={styles.about__item}>
+                <span className={styles.icon}>
+                  <ChevronRight />
+                </span>
+                <span className={styles.text}>{service.type}</span>
+              </li>
+            ))}
+          </ul>
         </div>
         <div className={styles.about__right}>
           <div className={styles["about__image--box"]}>
