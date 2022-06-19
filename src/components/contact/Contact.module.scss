@@ -50,6 +50,12 @@
         line-height: 26px;
         color: var(--slate);
         text-align: center;
+
+        @media only screen and (max-width: 1140px) {
+            margin-top: var(--span-s);
+            font-size: var(--size-s);
+            line-height: 23px;
+        }
     }
 
     &__box {

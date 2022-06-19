@@ -48,6 +48,12 @@
         max-width: 45%;
         margin-right: auto;
         margin-bottom: var(--span-s);
+
+        @media only screen and (max-width: 1140px) {
+            margin-top: var(--span-s);
+            font-size: var(--size-s);
+            line-height: 23px;
+        }
     }
 
     &__link {
