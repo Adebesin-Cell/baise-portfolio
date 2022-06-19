@@ -16,6 +16,11 @@
         font-weight: var(--weight-xlg);
         line-height: 78px;
         color: var(--lightest-slate);
+
+        @media only screen and (max-width: 1140px) {
+            font-size: calc(var(--size-2xl) + 4px);
+            line-height: 63px;
+        }
     }
 
     &__paragraph {
@@ -25,6 +30,12 @@
         font-weight: var(--weight-xlg);
         line-height: 78px;
         color: var(--slate);
+
+        @media only screen and (max-width: 1140px) {
+            margin-top: 5px;
+            font-size: calc(var(--size-2xl) + 4px);
+            line-height: 63px;
+        }
     }
 
     &__text {

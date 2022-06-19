@@ -30,7 +30,7 @@ const Contact = function () {
           Say Hello
         </a>
       </div>
-      <div className={styles.contact__socials}>
+      <div className={styles.contact__socials} id='socials'>
         <div className={styles.contact__icon}>
           <a href='https://twitter.com/Kingfundz1?t=znm7HJ1Kk0mbHJ2UMlL-9w&s=09'>
             <i className='fab fa-twitter'></i>
@@ -38,17 +38,17 @@ const Contact = function () {
         </div>
         <div className={styles.contact__icon}>
           <a href='https://wa.link/83l2ja'>
-            <i class='fab fa-whatsapp'></i>
+            <i className='fab fa-whatsapp'></i>
           </a>
         </div>
         <div className={styles.contact__icon}>
           <a href='/'>
-            <i class='fab fa-telegram'></i>
+            <i className='fab fa-telegram'></i>
           </a>
         </div>
         <div className={styles.contact__icon}>
           <a href='/'>
-            <i class='fab fa-facebook'></i>
+            <i className='fab fa-facebook'></i>
           </a>
         </div>
       </div>
