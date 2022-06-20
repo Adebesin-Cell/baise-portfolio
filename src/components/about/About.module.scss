@@ -2,6 +2,10 @@
     margin: calc(2 * var(--span-xl) + var(--span-l)) 0;
     margin-bottom: calc(var(--span-2xl) + var(--span-xl));
 
+    @media only screen and (max-width: 600px) {
+        margin-top: calc(var(--span-2xl));
+    }
+
     &__wrapper {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
@@ -9,6 +13,10 @@
 
         @media only screen and (max-width: 990px) {
             gap: var(--span-xl);
+        }
+
+        @media only screen and (max-width: 600px) {
+            grid-template-columns: 1fr;
         }
     }
 
@@ -90,6 +98,12 @@
                 width: 100%;
             }
 
+            @media only screen and (max-width: 600px) {
+                margin: 0 auto;
+                width: 75%;
+                height: 350px;
+            }
+
             &::before {
                 position: absolute;
                 bottom: -20px;
@@ -141,7 +155,7 @@
     }
 
     &__item {
-        flex: 0 0 40%;
+        flex: 1 0 40%;
         display: flex;
         gap: 5px;
     }

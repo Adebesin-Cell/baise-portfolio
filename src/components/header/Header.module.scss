@@ -19,4 +19,21 @@
         padding-left: 5%;
         padding-right: 5%;
     }
+
+    &__menu {
+        display: none;
+        align-items: center;
+        justify-content: center;
+        cursor: pointer;
+
+        svg {
+            fill: var(--green);
+            width: 24px;
+            height: 24px;
+        }
+
+        @media only screen and (max-width: 600px) {
+            display: flex;
+        }
+    }
 }
